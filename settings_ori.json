@@ -1,0 +1,166 @@
+{
+    "Tiers": [
+        {
+            "Title": "Новичок",
+            "FromPoints": 0,
+            "ToPoints": 10,
+            "PointsPlayer": 20,
+            "PointsZombie": 2,
+            "PointsAnimal": 1,
+            "PointsDeath": 5,
+            "PointsHitByPlayer": 1,
+            "PointsHitByZombie": 1,
+            "PointsHitByAnimal": 1,
+            "ZombiePointsByType": {
+                "ZmbM_FarmerFat_Blue": 5,
+                "ZmbM_HermitSkinny_Beige": 3
+            },
+            "AnimalPointsByType": {
+                "Animal_CapraHircusF": 2,
+                "Animal_CervusElaphus": 15
+            },
+            "ActionPointsByType": {
+                "ActionTestBloodSelf": 5,
+                "ActionBandageSelf": 2
+            },
+            "Rewards": [
+                {
+                    "Type": "Paper",
+                    "Quantity": 1,
+                    "HP": 100.0
+                },
+                {
+                    "Type": "Apple",
+                    "Quantity": 100,
+                    "HP": 100.0
+                }
+            ],
+            "Zones": [
+                {
+                    "Name": "Зона A",
+                    "CX": 7551.9599609375,
+                    "CY": 6.022659778594971,
+                    "CZ": 3519.25,
+                    "Radius": 50.0,
+                    "BlockActions": [
+                        "ActionDrink",
+                        "ActionEat"
+                    ]
+                },
+                {
+                    "Name": "Зона B",
+                    "CX": 7607.490234375,
+                    "CY": 6.160679817199707,
+                    "CZ": 3285.47998046875,
+                    "Radius": 50.0,
+                    "BlockActions": [
+                        "ActionDrink",
+                        "ActionEat"
+                    ]
+                }
+            ],
+            "VipRewards": [
+                {
+                    "Type": "BandageDressing",
+                    "Quantity": 1,
+                    "HP": 100.0
+                }
+            ],
+            "HandBlacklist": [
+                "AKM",
+                "Plum"
+            ],
+            "EquipBlacklist": []
+        },
+        {
+            "Title": "Умелый",
+            "FromPoints": 10,
+            "ToPoints": 50,
+            "PointsPlayer": 10,
+            "PointsZombie": 1,
+            "PointsAnimal": 1,
+            "PointsDeath": 10,
+            "PointsHitByPlayer": 2,
+            "PointsHitByZombie": 1,
+            "PointsHitByAnimal": 1,
+            "ZombiePointsByType": {},
+            "AnimalPointsByType": {},
+            "ActionPointsByType": {
+                "ActionTestBloodSelf": 3,
+                "ActionBandageSelf": 1
+            },
+            "Rewards": [
+                {
+                    "Type": "Rag",
+                    "Quantity": 2,
+                    "HP": 100.0
+                },
+                {
+                    "Type": "AKM",
+                    "Quantity": 1,
+                    "HP": 100.0
+                }
+            ],
+            "Zones": [],
+            "VipRewards": [],
+            "HandBlacklist": [],
+            "EquipBlacklist": []
+        },
+        {
+            "Title": "Мастер",
+            "FromPoints": 50,
+            "ToPoints": 2000000000,
+            "PointsPlayer": 5,
+            "PointsZombie": 1,
+            "PointsAnimal": 1,
+            "PointsDeath": 15,
+            "PointsHitByPlayer": 3,
+            "PointsHitByZombie": 1,
+            "PointsHitByAnimal": 1,
+            "ZombiePointsByType": {},
+            "AnimalPointsByType": {},
+            "ActionPointsByType": {
+                "ActionBandageSelf": 1
+            },
+            "Rewards": [
+                {
+                    "Type": "Mag_AKM_30Rnd",
+                    "Quantity": 2,
+                    "HP": 100.0
+                }
+            ],
+            "Zones": [],
+            "VipRewards": [],
+            "HandBlacklist": [],
+            "EquipBlacklist": []
+        }
+    ],
+    "SendRewardsToMail": 0,
+    "MailOriginTag": "rank",
+    "MailSystemSender": "Система",
+    "RankLogMax": 500,
+    "RankFXEnabled": 1,
+    "RankFXPlaces": [
+        1,
+        2,
+        3
+    ],
+    "TopPrivilegePlaces": [
+        1,
+        2,
+        3
+    ],
+    "TopPrivilegeZones": [
+        {
+            "Name": "Арена ТОП",
+            "CX": 7607.490234375,
+            "CY": 6.159999847412109,
+            "CZ": 3285.47998046875,
+            "Radius": 50.0,
+            "AllowActions": [
+                "ActionDrink",
+                "ActionEat"
+            ]
+        }
+    ]
+}
